@@ -1,17 +1,18 @@
-html{
-    margin:0;
-    height:100%;
-}
 
 body{
-    margin:0;
-    padding: 0;
     background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
-background-repeat: no-repeat; 
-   background-size: cover;
+    margin-bottom:450px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+/*     height: 100% !important;
+    display:block !important; */
+   
 
 }
 
+.contenedor{
+    margin: 0 auto;
+}
 
 .titulo{
     text-align: center;
@@ -19,7 +20,7 @@ background-repeat: no-repeat;
 }
 
 h1, label, option{
-
+    text-align: center;
     font-family: 'Domine', serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -37,3 +38,20 @@ label{
     padding: 40px;
 }
 
+#resultado{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.alerta {
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
+}
+.error {
+    background-color: red;
+}
